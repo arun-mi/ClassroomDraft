@@ -1,0 +1,54 @@
+.contained {
+  top: 0;
+  margin-bottom: 10px;
+  width: 90%;
+
+  max-width: 806px;
+}
+
+.container_inst {
+  width: 806px;
+  min-height: 250px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+  flex-wrap: wrap;
+}
+
+.containee {
+  width: 200px;
+  color: #4745b1;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  height: 100px;
+  background: #f4f4f4;
+  border: none;
+  border-radius: 10%;
+  outline: none;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.containee:hover {
+  background: #e8e8e8 radial-gradient(circle, transparent 1%, #e8e8e8 1%)
+    center/15000%;
+  cursor: pointer;
+}
+.containee:active {
+  background-color: #f4f4f4;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.togglebutn {
+  background: none;
+  border: none;
+  outline: none;
+  color: grey;
+  font-weight: 900;
+}
+
+.togglebutn:hover {
+  cursor: pointer;
+}

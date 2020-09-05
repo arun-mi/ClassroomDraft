@@ -1,0 +1,40 @@
+.LiveSessions_container {
+  max-height: 600px;
+  overflow: auto;
+  border-radius: 2%;
+  border: solid grey 1px;
+}
+
+.LiveSessions_container:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  visibility: hidden;
+  background: grey;
+  border-radius: 10px;
+  transition: visibility 2s ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+.LiveSessions_items {
+  min-height: 70px;
+}
+
+.timeofsession {
+  color: #4745b1;
+}
+
+.tagger {
+  text-decoration: none;
+}
