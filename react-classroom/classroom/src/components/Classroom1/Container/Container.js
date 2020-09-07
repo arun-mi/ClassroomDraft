@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Container.css";
-import LiveSessions from "../Classroom1/LiveSessions/LiveSessions";
+import LiveSessions from "../LiveSessions/LiveSessions";
 import { Spring } from "react-spring/renderprops";
 import { useTransition, animated } from "react-spring";
 import Background from "./images/logo192.png";

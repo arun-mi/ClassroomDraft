@@ -19,7 +19,7 @@
 .containee {
   width: 200px;
   color: #4745b1;
-  margin-right: 15px;
+  margin-right: 10px;
   margin-bottom: 25px;
   height: 100px;
   background: #f4f4f4;
@@ -31,8 +31,7 @@
 }
 
 .containee:hover {
-  background: #e8e8e8 radial-gradient(circle, transparent 1%, #e8e8e8 1%)
-    center/15000%;
+  background: #e8e8e8;
   cursor: pointer;
 }
 .containee:active {
@@ -51,4 +50,31 @@
 
 .togglebutn:hover {
   cursor: pointer;
+}
+
+.containee2 {
+  width: 200px;
+  color: #f4f4f4;
+  margin-right: 7px;
+  margin-bottom: 25px;
+  height: 250px;
+
+  border: 1px solid #1a1915;
+  border-left: 20px solid black;
+  outline: none;
+  background: #4745b1;
+  background-image: linear-gradient(#4745b1, #663399);
+  background-position: center;
+  transition: background 0.8s;
+  transition: box-shadow 0.5s;
+  transition: width 0.1s ease-in-out;
+  transition: height 0.1s ease-in-out;
+}
+
+.containee2:hover {
+  box-shadow: 7px 16px 30px 7px rgba(0, 0, 0, 0.2),
+    7px 16px 30px 7px rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  width: 210px;
+  height: 260px;
 }
